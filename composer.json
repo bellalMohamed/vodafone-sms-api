@@ -1,0 +1,24 @@
+{
+    "name": "bellal/VodafoneSMS",
+    "description": "Send SMSs using vodafone bulk sms API",
+    "keywords": ["vodafone", "composer", "package"],
+    "license": "DBAD",
+    "authors": [
+        {
+            "name": "Bellal Mohamed",
+            "email": "mbellal2000@gmail.com"
+        }
+    ],
+    "type": "package",
+    "require": {
+		"php": ">=5.4"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "Bellal\\VodafoneSMS\\": "src/"
+        }
+    }
+}
