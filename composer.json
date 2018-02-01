@@ -2,7 +2,7 @@
     "name": "bellal/vodafone-sms",
     "description": "Send SMSs using vodafone bulk sms API",
     "keywords": ["vodafone", "composer", "package"],
-    "license": "DBAD",
+    "license": "MIT",
     "authors": [
         {
             "name": "Bellal Mohamed",
