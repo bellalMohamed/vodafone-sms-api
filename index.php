@@ -1,5 +1,4 @@
 <?php
-
 use Bellal\VodafoneSMS\VodafoneAdapter;
 
 require 'vendor/autoload.php';

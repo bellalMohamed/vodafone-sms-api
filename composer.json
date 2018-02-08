@@ -1,7 +1,7 @@
 {
     "name": "bellal/vodafone-sms",
     "description": "Send SMSs using vodafone bulk sms API",
-    "keywords": ["vodafone", "composer", "package"],
+    "keywords": ["vodafone", "SMS", "vodafone API", "Web SMP", "composer", "package"],
     "license": "MIT",
     "authors": [
         {
@@ -12,9 +12,6 @@
     "type": "package",
     "require": {
 		"php": ">=5.4"
-    },
-	"require-dev": {
-		"phpunit/phpunit": "5.2.*"
     },
 	"autoload": {
         "psr-4": {
