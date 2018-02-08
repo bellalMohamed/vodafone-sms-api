@@ -4,14 +4,15 @@ use Bellal\VodafoneSMS\VodafoneAdapter;
 
 require 'vendor/autoload.php';
 
+
 $message = new VodafoneAdapter([
-	'accountId' => 'ACCOUNT_ID',
-	'password' => 'PASSWORD',
-	'secretKey' => 'SECRET_KEY',
-	'senderName' => 'SENDER_NAME',
+	'accountId' => '101005212',
+	'password' => 'Vodafone.1',
+	'secretKey' => '706D1665E0CC45B98ED828BFFF68AFDF',
+	'senderName' => 'ZEAL',
 ]);
 
 $data = $message->send([
-	'to' => 'Mobile number',
-	'text' => 'You message body',
+	'to' => '01026525200',
+	'text' => 'Hey how are you :D',
 ]);
