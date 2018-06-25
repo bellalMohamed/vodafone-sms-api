@@ -5,7 +5,7 @@ Vodafone Bulk SMS API
 
 use Bellal\VodafoneSMS\VodafoneAdapter;
 
-$message = new VodafoneAdapter([
+$messageProviderInstance = new VodafoneAdapter([
     'accountId' => 'VODAFONE_ACCOUNT_ID',
     'password' => 'VODAFONE_PASS',
     'secretKey' => 'VODAFONE_SECRET_KEY',
