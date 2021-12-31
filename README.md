@@ -1,4 +1,12 @@
 Vodafone Bulk SMS API
+# Installing Package
+
+The recommended way to install is through
+[Composer](https://getcomposer.org/).
+
+```bash
+composer require bellal/vodafone-sms
+```
 
 ```
 <?php
